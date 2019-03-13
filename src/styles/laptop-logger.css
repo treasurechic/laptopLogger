@@ -1,0 +1,388 @@
+*{
+    margin:0;
+    font-family: arial;
+}
+body{
+    background:url('./../images/code-113611.jpg') no-repeat;
+    background-size:200%;
+}
+* a{
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+}
+.laptop{
+    margin-top:15%;
+    margin-left:5%;
+    color:white;
+    background:#204770;
+    width:50%;
+}
+.laptop h2{
+    font-weight: 400;
+    font-size:40px;
+    padding:10px;
+}
+.laptop p{
+    padding:10px;
+    font-weight:20;
+    font-size: 17px;
+}
+.laptop input{
+    margin:10px;
+    padding:5px;
+}
+.laptop .sign {
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    background-color: #df4a32;
+    border: 0 solid #df4a32;
+    font-size:12px;
+    font-family: italic;
+}
+.laptop .submit{
+    margin-right:180px;
+    padding: 6px 13px 6px 13px;
+    color: black;
+    background-color: white;
+    border: 0 solid white;
+    font-size:14px;
+    border-radius:3px;
+}
+.year{
+    color:white;
+    margin:15% 0 7% 6%;
+}
+footer{
+    font-weight: bold;
+    background: #435274;
+    width:100%;
+    margin-bottom: 0;
+    position: fixed;
+}
+footer span{
+    float: right;
+    padding: 10px;
+    padding-right:30px;
+    font-weight:bold;
+    font-size:30px;
+}
+
+#sidebar{
+    height: 90%;
+    width: 200px;
+    position: fixed;
+    top:30px;
+    left:0;
+    background:url('./../images/code-113611.jpg') no-repeat;
+    background-size: 100%;
+    overflow-x:hidden;
+    padding-top: 20px;
+    border-right:2px solid #435272;
+}
+#sidebar ul{
+    list-style: none;
+    padding-left: 5px;
+}
+#sidebar a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight:500;
+  color: #435272;
+  display:visible;
+  transition: 0.8s;
+}
+#sidebar .sidenavbutton button:hover a{
+  color: rgb(199, 1, 1);
+  font-size:20px;
+}
+.sidenavbutton button{
+    background:#c1c1c1;
+    border:2px #435272 solid;
+     width:100%;
+     color:#435272;
+     cursor: pointer; 
+     padding:10px;
+}
+.sidenavbutton ul .active{
+    border-right:0px white solid;
+    background: white;
+
+}
+.sidenavbutton ul .normal{
+    background:#c1c1c1;
+    border:2px #435272 solid;
+    width:100%;
+    color:#435272;
+    cursor: pointer; 
+    padding:10px;
+}
+section {
+    clear: both;
+    margin-top:19px;
+    margin-bottom:20px;
+    padding-bottom:20px;
+    margin-left:200px;
+    background: white;
+    overflow: hidden;
+    height:80%;
+    border-top:3px #435272 solid;
+    border-bottom:3px #435272 solid;
+}
+section .top{
+   border-bottom:#435272 solid 2px;
+   margin-left:28px;
+    overflow: hidden;    
+}
+section .top span,a{
+    float:right;
+    color:#4f89c0;
+    margin-left:10px;
+    margin-right:10px;
+    margin:10px;
+}
+section .top .logOut{
+    border-left:2px #435272 solid;
+}
+section .top  h1{
+    float: left;
+    padding:10px 10px 10px 0px;
+    color:#42588a;
+}
+.dashboard table {
+    width:90%;
+    margin:0 5% 2% 5%;
+}
+.report table {
+    width:90%;
+    margin:0 5% 2% 5%;
+}
+table, th, td {
+    border: 1px solid #435272;
+    border-collapse: collapse;
+    color:#42588a;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+table tr:nth-child(odd) {
+   background-color:#fff;
+}
+.dashboard .table1 h2{
+    margin-left:28px;
+    margin-top:5px;
+    font-weight: 500;
+    color:#42588a;
+}
+.dashboard .table2 h2{
+    margin-left:28px;
+    margin-top:5px;
+    font-weight: 500;
+    color:#42588a;
+}
+.table2 .left{
+    float: left;
+    width:40%;
+    height:150px;
+    margin:2% 5%;
+    border-left:4px #435272 solid;
+    border-bottom:4px solid #435272;
+}
+.table2 .right{
+    float: right;
+    width:40%;
+}
+
+/* today's log */
+.todayLog .top h1{
+    color:#42588a;
+}
+.todayLog .input{
+    float: right;
+    border:2px solid #435272;
+    width:30%;
+    margin:10px;
+}
+.todayLog .input input{
+    height:30px;
+    width: 90%;
+    padding-left:5px;
+    border:0px solid #435272;
+}
+.todayLog .first{
+    clear: both;
+    border:2px solid #42588a;
+    padding:20px;
+    margin: 20px;
+}
+.todayLog .first input{
+    height:28px;
+    border:2px solid #42588a;
+    margin:8px;
+}
+.todayLog .first .visitor{
+    margin-left:20px;
+}
+.todayLog .first .model{
+    margin-left:35px;
+}
+.todayLog .first .lap{
+    margin-left:20px;
+}
+.todayLog .first label{
+    color:#42588a;
+    padding:10px;
+}
+.todayLog .first button{
+    border:1px solid #040c1f;
+    background: #223563;
+    height:33px;
+    width:50px;
+    margin:12px;
+    color:white;
+}
+.todayLog .second table{
+    width:95%;
+    margin:3%;
+}
+.calender{
+    margin:25px;
+    border-bottom:2px solid #435274;
+    padding-bottom:15px;
+}
+.calender span{
+    float: right;
+    padding-right:20px;
+    text-decoration:underline;
+    color:#4f89c0;
+}
+.calender h2{
+    float:left;
+    color:#42588a;
+    font-weight: 500;
+    
+}
+.calender {
+    color:#42588a;
+}
+.calender input, button{
+    border:solid 1px #435274;
+
+}
+.calender label{
+    padding:10px;
+}
+.calender .clear-fix{
+    clear: both;
+}
+.graph{
+    margin:5%;
+    width:90%;
+    height:250px;
+    border-left:2px solid #435274;
+    border-bottom: solid 2px #435274;
+}
+.users button{
+    width:80px;
+    height:30px;
+    float: right;
+    margin:40px 30px 20px 100px; 
+}
+.users table{
+    clear: both;
+    width:95%;
+    margin:3%;
+}
+.users{
+    height:600px;
+}
+.password{
+    height:600px;
+    color:#42588a;
+}
+.password .pass{
+    margin:30px;
+}
+.password .pass input{
+    margin:7px;
+    margin-left:15px;
+    padding: 5px;
+    border:solid 2px #435274;
+}
+ .password .pass .new{
+    margin-left:36px;
+}
+.password .pass .old{
+    margin-left:39px;
+}
+.password .pass button{
+    border:solid 2px #435274;
+}
+.modalBg{
+    position:absolute;
+    width:60%;
+    margin:3%;
+    color:#666666;
+    background-color:white;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* display: none; */
+    z-index:2;
+}
+.bg-active{
+    display: block;
+}
+@media only  screen and (min-width:800px){
+    .modalBg{ 
+        width:45%;
+        color:#888888;
+        margin-left:350px;
+        
+    }
+}
+.modal-content button{
+    color:red;
+    font-size:35px;
+    font-weight:bold;
+    background-color: transparent;
+    border: transparent 0 solid;
+    cursor: pointer;
+    float: right;
+    transition:all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+	-ms-transition:all 0.5s linear;
+	-o-transition:all 0.5s linear;
+    -webkit-transition:all 0.5s linear; 
+}
+.modal-content button {
+    opacity: 0.3;
+}
+button:hover {
+    opacity:0.9;
+}
+.modal-content h3{
+    clear: both;
+    font-size: 2em;
+    font-weight: 300;
+    margin:0 5% 2% 7%;
+}
+.modal-content input{
+    width:80%;
+    margin:0 7% 7% 7%;
+    padding-left:20px;
+    height: 35px;
+    border-radius:3px;
+}
+.modal-content .blue{
+    background:#435274;
+    border: #040c1f solid 1px; 
+    color:white;
+    border-radius:3px;
+    width:83%;
+}
