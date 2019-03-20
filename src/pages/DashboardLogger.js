@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import SideNav from "./../components/SideNav";
-
+import Chart from "../components/Chart.js";
 
 class DashboardLogger extends Component  {
 
@@ -74,7 +74,7 @@ class DashboardLogger extends Component  {
             </div>
             <div className="table2">
                 <h2>Logging Trend - Past Week</h2>
-                <div className="left"></div>
+                <div className="left "><Chart /></div>
                 <div className="right">
                 <table >
                     <tr>

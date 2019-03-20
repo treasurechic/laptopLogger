@@ -93,7 +93,7 @@ footer span{
   font-weight:500;
   color: #435272;
   display:visible;
-  transition: 0.8s;
+  transition: 0.4s;
 }
 #sidebar .sidenavbutton button:hover a{
   color: rgb(199, 1, 1);
@@ -110,8 +110,11 @@ footer span{
 .sidenavbutton ul .active{
     border-right:0px white solid;
     background: white;
-
 }
+.sidenavbutton ul .btn{
+    background: #c1c1c1;
+}
+
 .sidenavbutton ul .normal{
     background:#c1c1c1;
     border:2px #435272 solid;
@@ -190,14 +193,14 @@ table tr:nth-child(odd) {
 .table2 .left{
     float: left;
     width:40%;
-    height:150px;
+    height:140px;
     margin:2% 5%;
-    border-left:4px #435272 solid;
-    border-bottom:4px solid #435272;
+   
 }
 .table2 .right{
     float: right;
     width:40%;
+    margin-right:3%;
 }
 
 /* today's log */
@@ -282,12 +285,8 @@ table tr:nth-child(odd) {
 .calender .clear-fix{
     clear: both;
 }
-.graph{
+.graph-container{
     margin:5%;
-    width:90%;
-    height:250px;
-    border-left:2px solid #435274;
-    border-bottom: solid 2px #435274;
 }
 .users button{
     width:80px;

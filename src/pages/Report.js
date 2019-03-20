@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import SideNav from "./../components/SideNav";
-
+import Chart from "../components/Chart.js";
 
 
 class report extends Component {
@@ -32,7 +32,9 @@ class report extends Component {
             <button>Generate</button>
         </div>
     </div>
-        <div className="graph"></div>
+        <div className="graph-container">
+        <Chart/>
+        </div>
         <div className="table">
         <table >
                 <tr>
